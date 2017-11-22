@@ -1,0 +1,113 @@
+html {
+  height: 100%;
+	
+	
+}
+body {
+  min-height: 100%;
+	background-color: #252830;
+	
+}
+h1{
+	
+	color: white;
+	margin-bottom: 2%;
+	letter-spacing: 2px;
+}
+a,p, span{
+	color: white;
+}
+label{
+	color: white;
+	font-weight:200;
+}
+.container1{
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	height:100vh;
+	display: table;
+	width: 100%;
+	background-color: #252830;
+	
+	
+	
+}
+.btn-primary{
+	background-color: #1ca8dd;
+	border-color: #1ca8dd;
+	padding: 0.875rem 1.75rem;
+   font-size: 1.5rem;
+	
+}
+.btn{
+
+   
+   top:50%;
+	position: relative;
+   text-align: center;
+}
+.cont{
+	
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #252830;
+	
+}
+nav{
+	position: absolute;
+}
+.btn-success{
+	background-color: #1bc98e;
+}
+.btn-info{
+	background-color: #E4D836;
+	border-color: #E4D836;
+}
+.wrap{
+	margin-top: 3%;
+}
+span{
+	font-weight: 200;
+	letter-spacing: 1px;
+	font-size: 28px;
+	color: #868e96;
+}
+
+.card{
+	margin-top: 20px;
+}
+.card-title{
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+.card-text{
+	margin-top:-13px;
+	font-weight: 200;
+	color:black;
+}
+.gen-key{
+	padding: 0.875rem 1.75rem;
+	
+	margin: 2% auto;
+}
+.key{
+	text-align: center;
+}
+.edit{
+	padding: 0.470rem 1.55rem;
+}
+.line{
+	height: 1px;
+	width:100%;
+	background-color: #f9f9f9;
+	margin-top:33px;
+	margin-bottom: 33px;
+	
+}
+.finalKey{
+	font-weight: 600;
+	color: #9F86FF;
+	letter-spacing: 2px;
+	
+}

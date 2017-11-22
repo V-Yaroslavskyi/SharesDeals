@@ -1,0 +1,48 @@
+@(data: String)
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+	  <meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+	  <link rel="stylesheet" href="@routes.Assets.versioned("css/bootstrap.min.css")" >
+	  <link rel="stylesheet" href="@routes.Assets.versioned("css/style.css")">
+  </head>
+  <body>
+	 <div class="wrap">
+	  <div class="container">
+		  <h1>Participants</h1>
+		  <input type="hidden" id="data" value="@data">
+		  <div class="row">
+			  <div class="col-sm-4" id="patt">
+				 <div class="card">
+					<div class="card-body">
+					  <h4 class="card-title name"></h4>
+					  <p class="card-text desc"></p>
+					  <p class="card-text share"></p>
+					  <p class="card-text addr"></p>
+					  <a href="#" class="btn btn-info edit">Edit</a>
+					</div>
+				 </div>
+			  </div>
+
+			</div>
+		  <div class="key">
+		  	<button type="submit" id="gen" class="btn btn-success gen-key">Generate Key</button>
+			  </div>
+		</div>
+		 </div>
+	  
+	  
+	  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	  <script src="@routes.Assets.versioned("js/jquery-3.2.1.min.js")" ></script>
+	  <script src="@routes.Assets.versioned("js/popper.min.js")"></script>
+	  <script src="@routes.Assets.versioned("js/bootstrap.min.js")"></script>
+	  <script src="@routes.Assets.versioned("js/form.js")"></script>
+  </body>
+</html>
